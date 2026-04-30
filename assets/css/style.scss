@@ -257,6 +257,24 @@ footer a {
   color: #9cc9ff;
 }
 
+.footer-academy {
+  color: #6b7280;
+  font-size: 11px;
+  margin-top: 10px;
+  border-top: 1px solid #3a3d42;
+  padding-top: 8px;
+}
+
+.footer-academy a {
+  color: #7aa2f7;
+  text-decoration: none;
+}
+
+.footer-academy a:hover {
+  color: #9cc9ff;
+  text-decoration: underline;
+}
+
 /* Navegación de posts */
 .post-navigation {
   display: flex;
