@@ -25,6 +25,10 @@
     <div class="wrapper">
       <section>
 
+      {% if page.image %}
+        <img src="{{ page.image }}" alt="{{ page.title }}" class="post-header-image">
+      {% endif %}
+
       {{ content }}
 
       <div class="post-navigation">

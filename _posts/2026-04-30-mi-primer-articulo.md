@@ -3,9 +3,12 @@ layout: post
 title: "Guía de Markdown para Programadores"
 date: 2026-04-30 19:00:00 +0400
 categories: programacion
+image: "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=800&h=400&fit=crop"
 ---
 
 Bienvenido a mi primer artículo sobre los elementos de Markdown más útiles para escribir sobre programación. En este artículo aprenderás cómo estructurar y presentar tu código de manera clara y profesional.
+
+![Imagen de cabecera - Programación](https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=800&h=400&fit=crop)
 
 ## Títulos y Estructura
 
@@ -112,6 +115,19 @@ Las tablas son excelentes para comparar datos:
 | Python | Dinámico | `x = 10` |
 | Java | Estático | `int x = 10;` |
 | Rust | Estático | `let x: i32 = 10;` |
+
+## Imágenes
+
+Las imágenes son excelentes para visualizar conceptos y mejorar la presentación de tu contenido. Puedes usar imágenes tanto locales como externas:
+
+![Ejemplo de imagen - Pantalla con código](https://images.unsplash.com/photo-1633356122544-f134324ef6db?w=800&h=400&fit=crop)
+
+También puedes usar figuras con descripciones:
+
+<figure>
+  <img src="https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=600&h=300&fit=crop" alt="Editor de código">
+  <figcaption>Una figura con descripción: Un editor de código bien configurado es esencial para la productividad</figcaption>
+</figure>
 
 ## Citas
 

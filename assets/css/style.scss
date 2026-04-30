@@ -344,3 +344,34 @@ footer a {
 .posts small {
   color: #9c9688;
 }
+
+/* Imágenes */
+img {
+  max-width: 100%;
+  height: auto;
+  border: 1px solid #3a3d42;
+  border-radius: 4px;
+  display: block;
+  margin: 20px 0;
+}
+
+.post-header-image {
+  max-width: 100%;
+  height: auto;
+  border: 2px solid #3a3d42;
+  border-radius: 4px;
+  margin-bottom: 20px;
+  display: block;
+}
+
+figure {
+  margin: 20px 0;
+  text-align: center;
+}
+
+figcaption {
+  font-size: 14px;
+  color: #9c9688;
+  margin-top: 8px;
+  font-style: italic;
+}
