@@ -5,7 +5,7 @@
 body {
   background: #101214;
   color: #e6e1d3;
-  font-family: "Lucida Console", "Courier New", monospace;
+  font-family: "Courier New", monospace;
   font-size: 16px;
   line-height: 1.65;
 }
@@ -13,6 +13,7 @@ body {
 /* Contenedor principal tipo hoja/bloc */
 .wrapper {
   max-width: 860px;
+  margin: 0 auto;
 }
 
 /* Cabecera simple estilo app antigua */
@@ -24,7 +25,7 @@ body {
 .site-title,
 .site-title:visited {
   color: #f2f2f2;
-  font-family: "Lucida Console", "Courier New", monospace;
+  font-family: "Courier New", monospace;
   font-size: 20px;
   font-weight: normal;
 }
@@ -48,13 +49,13 @@ body {
   background: #181a1d;
   border: 1px solid #3a3d42;
   box-shadow: 6px 6px 0 #070809;
-  padding: 32px;
+  padding: 40px;
 }
 
 /* Títulos */
 h1, h2, h3, h4 {
   color: #f5f0df;
-  font-family: "Lucida Console", "Courier New", monospace;
+  font-family: "Courier New", monospace;
   font-weight: normal;
 }
 
@@ -94,7 +95,7 @@ code {
   border: 1px solid #3a3d42;
   padding: 2px 5px;
   border-radius: 2px;
-  font-family: "Lucida Console", "Courier New", monospace;
+  font-family: "Courier New", monospace;
 }
 
 /* Bloques de código */
