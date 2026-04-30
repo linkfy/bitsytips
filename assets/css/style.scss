@@ -1,0 +1,143 @@
+---
+---
+
+@import "minima";
+
+/* Base general */
+body {
+  background: #101214;
+  color: #e6e1d3;
+  font-family: "Lucida Console", "Courier New", monospace;
+  font-size: 16px;
+  line-height: 1.65;
+}
+
+/* Contenedor principal tipo hoja/bloc */
+.wrapper {
+  max-width: 860px;
+}
+
+/* Cabecera simple estilo app antigua */
+.site-header {
+  background: #1b1d20;
+  border-bottom: 2px solid #3a3d42;
+}
+
+.site-title,
+.site-title:visited {
+  color: #f2f2f2;
+  font-family: "Lucida Console", "Courier New", monospace;
+  font-size: 20px;
+  font-weight: normal;
+}
+
+.site-nav .page-link {
+  color: #d6d0c0;
+}
+
+.site-nav .page-link:hover {
+  color: #ffffff;
+  text-decoration: underline;
+}
+
+/* Zona de contenido */
+.page-content {
+  padding-top: 36px;
+}
+
+.post,
+.home {
+  background: #181a1d;
+  border: 1px solid #3a3d42;
+  box-shadow: 6px 6px 0 #070809;
+  padding: 32px;
+}
+
+/* Títulos */
+h1, h2, h3, h4 {
+  color: #f5f0df;
+  font-family: "Lucida Console", "Courier New", monospace;
+  font-weight: normal;
+}
+
+.post-title {
+  color: #f5f0df;
+  font-size: 30px;
+  border-bottom: 1px dashed #555;
+  padding-bottom: 12px;
+}
+
+.post-link {
+  color: #f5f0df;
+}
+
+.post-link:hover {
+  color: #ffffff;
+  text-decoration: underline;
+}
+
+.post-meta {
+  color: #9c9688;
+}
+
+/* Enlaces */
+a {
+  color: #9cc9ff;
+}
+
+a:hover {
+  color: #ffffff;
+}
+
+/* Código inline */
+code {
+  background: #0c0d0f;
+  color: #f3d27a;
+  border: 1px solid #3a3d42;
+  padding: 2px 5px;
+  border-radius: 2px;
+  font-family: "Lucida Console", "Courier New", monospace;
+}
+
+/* Bloques de código */
+pre {
+  background: #0c0d0f;
+  color: #dcd7c9;
+  border: 1px solid #4a4d52;
+  border-left: 6px solid #7f8c8d;
+  padding: 18px;
+  overflow-x: auto;
+  box-shadow: inset 0 0 0 1px #000;
+}
+
+pre code {
+  background: transparent;
+  border: none;
+  padding: 0;
+  color: inherit;
+}
+
+/* Tablas */
+table {
+  background: #111315;
+  border: 1px solid #3a3d42;
+}
+
+th, td {
+  border: 1px solid #3a3d42;
+  padding: 8px 12px;
+}
+
+/* Citas */
+blockquote {
+  color: #c7c0aa;
+  border-left: 4px solid #777;
+  background: #111315;
+  padding: 12px 18px;
+}
+
+/* Footer */
+.site-footer {
+  border-top: 1px solid #3a3d42;
+  color: #8b8578;
+}
