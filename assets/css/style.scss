@@ -181,19 +181,29 @@ pre code {
   color: #9ece6a;
 }
 
-/* Keywords - Azul/Púrpura */
+/* Keywords - Palabras reservadas - Magenta/Púrpura */
 .k, .kc, .kd, .kn, .kp, .kr, .kt {
-  color: #7aa2f7;
+  color: #bb9af7;
   font-weight: bold;
 }
 
 /* Operadores - Rosa suave */
 .o, .om {
-  color: #bb9af7;
+  color: #f7768e;
 }
 
-/* Nombres - Funciones, clases, variables - Azul claro */
-.n, .na, .nb, .nc, .no, .nd, .ni, .ne, .nf, .nl, .nn, .nx, .py, .nt, .nv, .vc, .vg, .vi, .vm {
+/* Nombres de funciones y métodos - Azul claro */
+.nf, .fm, .nc {
+  color: #7aa2f7;
+}
+
+/* Variables - Nombres en general - Naranja */
+.n, .na, .nb, .no, .nd, .ni, .ne, .nl, .nn, .nx, .py, .nt, .nv, .vc, .vg, .vi, .vm {
+  color: #ff9e64;
+}
+
+/* Atributos y propiedades */
+.na {
   color: #7aa2f7;
 }
 
@@ -202,8 +212,8 @@ pre code {
   color: #ff9e64;
 }
 
-/* Tipos de dato */
-.bp, .fm {
+/* Tipos de dato - Azul */
+.bp {
   color: #7aa2f7;
 }
 
@@ -259,7 +269,7 @@ footer a {
 
 .footer-academy {
   color: #6b7280;
-  font-size: 11px;
+  font-size: 13px;
   margin-top: 10px;
   border-top: 1px solid #3a3d42;
   padding-top: 8px;
