@@ -169,6 +169,54 @@ pre code {
   color: inherit;
 }
 
+/* Syntax Highlighting con Rouge */
+/* Comentarios */
+.c, .cm, .c1, .cs {
+  color: #7f8c8d;
+  font-style: italic;
+}
+
+/* Strings */
+.s, .sa, .sb, .sc, .dl, .sd, .s1, .s2, .se, .sh, .si, .sx, .sr, .ss {
+  color: #a1d991;
+}
+
+/* Keywords */
+.k, .kc, .kd, .kn, .kp, .kr, .kt {
+  color: #ff6b9d;
+  font-weight: bold;
+}
+
+/* Operadores */
+.o, .om {
+  color: #f39c12;
+}
+
+/* Nombres - funciones, clases, variables */
+.n, .na, .nb, .nc, .no, .nd, .ni, .ne, .nf, .nl, .nn, .nx, .py, .nt, .nv, .vc, .vg, .vi, .vm {
+  color: #90caf9;
+}
+
+/* Números */
+.m, .mf, .mh, .mi, .il, .mo {
+  color: #ffcc99;
+}
+
+/* Tipos de datos */
+.bp, .fm, .nb {
+  color: #90caf9;
+}
+
+/* Directivas, tags HTML */
+.err, .g, .gd, .ge, .gr, .gh, .gh, .gi, .go, .gp, .gs, .gt, .gu, .gt {
+  color: #ff6b6b;
+}
+
+/* Highlighted line */
+.highlight {
+  background: transparent;
+}
+
 /* Tablas */
 table {
   background: #111315;
