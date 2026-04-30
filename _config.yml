@@ -1,6 +1,7 @@
 title: Bits y Tips de Linkfy
 description: Artículos sobre programación, y todo lo que voy aprendiendo
-baseurl: "/bitsytips"
+baseurl: ""
+url: "https://bits.minigen.io"
 permalink: "/:year/:month/:day/:title.html"
 
 markdown: kramdown
