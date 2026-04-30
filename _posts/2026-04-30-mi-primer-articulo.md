@@ -8,8 +8,6 @@ image: "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=800&h=400
 
 Bienvenido a mi primer artículo sobre los elementos de Markdown más útiles para escribir sobre programación. En este artículo aprenderás cómo estructurar y presentar tu código de manera clara y profesional.
 
-![Imagen de cabecera - Programación](https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=800&h=400&fit=crop)
-
 ## Títulos y Estructura
 
 Los títulos son fundamentales para organizar tu contenido. Utiliza `#` para crear diferentes niveles:
